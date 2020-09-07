@@ -1,4 +1,4 @@
-//ejercicio 6
+///ejercicio 6
 
 const grita = (str) => {
     return `¡${str}!`
@@ -28,3 +28,14 @@ const saludarGritando = (nombre, apellido) => {
 }
 
 alert(saludarGritando())
+
+//ejercicio 18
+
+const generarEmail = (apodoDelUsuario, correo) => {
+    let apodo = "jennimar17"
+    let dominio = "gmail.com"
+    return `Tu nuevo correo es: ${apodo}@${dominio}`
+
+}
+
+console.log(generarEmail())
